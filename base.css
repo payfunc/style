@@ -153,6 +153,9 @@ figure {
 	margin: 0 0 0 0;
 	counter-increment: figure;
 }
+figure > svg {
+	margin: 0 auto;
+}
 figure + figure,
 p + figure,
 figure + p {
