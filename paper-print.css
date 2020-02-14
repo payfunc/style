@@ -18,7 +18,7 @@
 		vertical-align: top;
 		margin: 25mm 10mm 0mm 0mm;
 		white-space: pre;
-		content: string(identification) "\a" string(date) "\a\a" string(classification);
+		content: string(identification) "\a" string(date) "\a" string(author) "\a\a" string(classification);
 	}
 	@bottom-right-corner {
 		content: "";
